@@ -8,6 +8,8 @@
 
 ## Introduction
 
+This repo is designed to demonstrate a range of available features that can be used as part of a modern CI/CD pipeline.
+
 ## Features
 
 #### Validation
