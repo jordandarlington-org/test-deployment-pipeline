@@ -14,7 +14,7 @@ This repo is designed to demonstrate a range of available features that can be u
 
 #### Validation
 
-- [ ] Unit Tests
+- [x] Unit Tests
 - [ ] Draft Pull Requests
 - [ ] Pull Request Descriptions
 
