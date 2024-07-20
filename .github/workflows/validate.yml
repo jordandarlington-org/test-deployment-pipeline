@@ -23,3 +23,17 @@ jobs:
 
     - name: run unit tests
       run: npm test
+
+  validate_draft_requests:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.draft
+    steps:
+      - name: Validate Draft PR
+        run: exit 1
+
+  validate_request_description:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.body == ''
+    steps:
+      - name: Validate PR Description
+        run: exit 1
