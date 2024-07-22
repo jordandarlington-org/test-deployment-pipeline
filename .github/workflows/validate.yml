@@ -2,10 +2,12 @@ name: Validate
 
 on:
   pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
     branches: [ main ]
 
 jobs:
   build:
+    if: !github.event.pull_request.draft && github.event.pull_request.body != ''
     runs-on: ubuntu-latest
 
     steps:
