@@ -27,15 +27,15 @@ jobs:
       run: npm test
 
   validate_draft_requests:
-    runs-on: ubuntu-latest
     if: github.event.pull_request.draft
+    runs-on: ubuntu-latest
     steps:
       - name: Validate Draft PR
         run: exit 1
 
   validate_request_description:
-    runs-on: ubuntu-latest
     if: github.event.pull_request.body == ''
+    runs-on: ubuntu-latest
     steps:
       - name: Validate PR Description
         run: exit 1
