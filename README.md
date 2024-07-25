@@ -28,10 +28,10 @@ This repo is licensed under an MIT license. A copy of the license is also provid
 [contributors-shield]: https://img.shields.io/github/contributors/jordandarlington-org/test-deployment-pipeline.svg?style=for-the-badge
 [contributors-url]: https://github.com/jordandarlington-org
 [forks-shield]: https://img.shields.io/github/forks/jordandarlington-org/test-deployment-pipeline.svg?style=for-the-badge
-[forks-url]: https://github.com/jordandarlington-org/spring-example/network/members
+[forks-url]: https://github.com/jordandarlington-org/test-deployment-pipeline/network/members
 [stars-shield]: https://img.shields.io/github/stars/jordandarlington-org/test-deployment-pipeline.svg?style=for-the-badge
-[stars-url]: https://github.com/jordandarlington-org/spring-example/stargazers
+[stars-url]: https://github.com/jordandarlington-org/test-deployment-pipeline/stargazers
 [issues-shield]: https://img.shields.io/github/issues/jordandarlington-org/test-deployment-pipeline.svg?style=for-the-badge
-[issues-url]: https://github.com/jordandarlington-org/spring-example/issues
+[issues-url]: https://github.com/jordandarlington-org/test-deployment-pipeline/issues
 [license-shield]: https://img.shields.io/github/license/jordandarlington-org/test-deployment-pipeline.svg?style=for-the-badge
-[license-url]: https://github.com/jordandarlington-org/spring-example/blob/main/LICENSE
+[license-url]: https://github.com/jordandarlington-org/test-deployment-pipeline/blob/main/LICENSE
