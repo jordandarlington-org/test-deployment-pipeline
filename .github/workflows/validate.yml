@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: !github.event.pull_request.draft && github.event.pull_request.body != ''
+    if: github.event.pull_request.draft == false && github.event.pull_request.body != ''
     runs-on: ubuntu-latest
 
     steps:
