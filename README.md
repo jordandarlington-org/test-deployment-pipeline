@@ -12,6 +12,8 @@ This repo is designed to demonstrate a range of available features that can be u
 
 ## Features
 
+- GitHub Actions Workflow
+
 #### Validation
 
 - [x] Unit Tests
